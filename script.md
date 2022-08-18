@@ -8,7 +8,7 @@ Hello again privacy fans.
 
 Welcome to our second series; An Introduction to Mining.
 
-We presume you have already **Gotten to Grips with Monero** before embarking on your mining journey. If you haven't, please check out our first video series!
+We presume you have already [**Gotten to Grips with Monero**](https://www.youtube.com/watch?v=AKB4w-L5ECA&list=PLcyDcJ4lpDVBpsnI-fbkB-7O4M63VIA2g) before embarking on your mining journey. If you haven't, please check out our first video series!
 
 In this two part series we'll be covering all the basic information you may need when embarking on your mining adventure.
 
