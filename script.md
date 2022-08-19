@@ -85,7 +85,7 @@ Using the same CPU we mentioned previously, it would take; ((2,5×10^9)÷(100×1
 
 When trying to win the lottery one can compete on their own or alongside others in the form of a syndicate. Syndicates in this case are called pools and are a common way for miners to ensure that they receive a steady income for the work the produce.
 
-For both a mining calculator and a list of the current publicly available pools please take a look at [miningpoolstats.stream](https://miningpoolstats.stream/monero). Here we can find links to the pools, view how the hashrate and blocks are distributed across them and use the previously mentioned calculator.
+For both a mining calculator and a list of the current publicly available pools please take a look at [miningpoolstats.stream](https://miningpoolstats.stream/monero). Here we can find links to the pools, view how the hashrate and blocks are distributed across them and use the calculator.
 
 
 ### Solo vs. Pool mining
@@ -103,15 +103,15 @@ All you need to mine on your own is a stable internet connection, a Monero node 
 
 Solo mining means you are only as likely to solve a block as the hashing power of your miner. It does however mean that when you do solve a block you keep all of the block reward and transaction fees. Your mining experience is totally under your control and there are no third parties involved.
 
-With centralised pool (CP) mining that is not the case. With this type on mining all you need is the miner software. This is because it is to their node that you are dedicating your hashing power and their nodes which receive the block rewards and transaction fees. 
+With centralised pool mining that is not the case. With this type on mining all you need is the miner software. This is because it is to their node that you are dedicating your hashing power and their wallets which receive the block rewards and transaction fees. 
 
-The main advantage is that you will always get a share of the solved blocks, regardless of whether or not your miner successful. There are a few different types of payout systems, to learn more we suggest you take a look at the following bitcoin [wiki](https://en.bitcoin.it/wiki/Comparison_of_mining_pools).
+The main advantage is that you will always get a share of the solved blocks, regardless of whether or not your miner's successful. There are a few different types of payout systems, to learn more we suggest you take a look at the following bitcoin [wiki](https://en.bitcoin.it/wiki/Comparison_of_mining_pools).
 
-CP operators are in direct control of the funds you helped to mine and they also typically charge a fee for their withdrawal. These are not the only disadvantages; they control what and when you mine and they can even use your hashing power to break the networks security!
+Centralised pool operators are in direct control of the funds you helped to mine and they also typically charge a fee for their withdrawal. These are not the only disadvantages; they control what and when you mine and they can even use your hashing power to break the networks security!
 
 [miningpoolstats.stream](https://miningpoolstats.stream/monero) also gives you information about the pool fees, minimum payout and number of active miners. Don't be attracted to the top performing pools, they often have higher fees and higher minimum payouts. Choosing these pools helps to centralise the security of the network and in the worst case could lead to a breaking of that security.
 
-You may think that the larger pools will offer more reliable and consistent payouts, due to them finding more blocks. However, choosing pools at the top of this list offers no real long term benefit!
+You may think that the larger pools will offer more reliable and consistent payouts, due to them finding more blocks. However, your average mining income will remain the same and choosing pools at the top of this list offers no real benefit!
 
 We at Moneroguides recommend P2Pool for those interested in pool mining, the details of which we'll be covering in the following section.
 
@@ -144,7 +144,7 @@ As you can see, this is a rather successful miner with a large hashrate. Bellow 
 
 Once a miner has found a share you will see it move from right to left with time. It will stay in the PPLNS window for a total of 2160 pool blocks or 6 hours; this is a result of having a block creation target of 10 seconds. The moment P2Pool finds a valid Monero block and there is at least 1 pool share in PPLNS window, you'll get a payout! This is because the block reward is split proportionately between all the wallets with valid shares in the PPLNS window.
 
-If P2Pool's hashrate isn't high enough to find Monero blocks every 6 hours as a minimum, not all shares will result in a payout. With Moneros current difficulty value, that would require a pool hastrate of 15 MH/s. Even if the pool hashrate is equal to 15 MH/s or higher, bad luck can sometimes result in a share going through PPLNS window without being rewarded. However, in the long run it will be compensated for by other shares receiving multiple payouts. Keep this in mind; payouts will average out over time to equal what you'd get with any CP.
+If P2Pool's hashrate isn't high enough to find Monero blocks every 6 hours as a minimum, not all shares will result in a payout. With Moneros current difficulty value, that would require a pool hastrate of 15 MH/s. Even if the pool hashrate is equal to 15 MH/s or higher, bad luck can sometimes result in a share going through PPLNS window without being rewarded. However, in the long run it will be compensated for by other shares receiving multiple payouts. Keep this in mind; payouts will average out over time to equal what you'd get with any centralised pool.
 
 [P2Pool.observer](https://p2pool.observer/) also has a form of calculator on their web page. You can use this calculator to estimate the time in which it will take you to find a share. It does this by dividing the current difficulty by your hashrate. Let's head back to the main page; you will see it labelled *Average Share Time Calculator*. After entering our machines hashrate and hitting the *calculate* button, we'll be given our estimate.
 
