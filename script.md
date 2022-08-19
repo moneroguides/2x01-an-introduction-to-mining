@@ -73,7 +73,7 @@ This may sound scary at first, but owning more that 50% of the hash rate at the 
 
 For greater context; as of the 15^th of May 2022, the global hash rate of the Monero network is around 2,8 GH/s. One of the most powerful server grade CPUs currently available, retailing for around €6500 can achieve a hash rate of 100 kH/s. 
 
-Just to start, the attacker would need more than 28000 of these CPUs costing over €182m. This is obviously quite a simple and brutal estimation, but it illustrates the point well enough.
+Just to start, the attacker would need more than 28000 of these CPUs costing over €182m. This is obviously quite a simple and brutal estimation and it may be simpler to hijack an existing pools capabilites, however it illustrates the point well enough.
 
 Next we could consider the more realistic scenario, a group takes control.
 
