@@ -46,11 +46,13 @@ Together, this information forms the next block in the block chain.
 
 Block rewards are the new coins issued by the network for each successfully solved block. These coins, plus the transaction fees generated from spent outputs are awarded to the miner who mints that block!
 
-The likelihood that any one miner is able to calculate the required hashes and hence solve the next block, is directly correlated to the number of hashes they can calculate per second (H/s). This is also known as the miners hashrate. That being said, it may not necessarily be the miner with the largest hashrate who mints the next block. This is due to the complexity of the task at hand. There is in fact an element of luck in this process as each and every hash has an equal and valid chance of being the next block in the chain.
+The likelihood that any one miner is able to calculate the required hashes and hence solve the next block, is directly correlated to the number of hashes they can calculate per second (H/s). This is also known as the miners hashrate.
+
+That being said, it may not necessarily be the miner with the largest hashrate who mints the next block. This is in part due to the complexity of the task at hand. There is in fact an element of luck in this process, as each and every hash has an equal and valid chance of satisfying the next block in the chain.
 
 The Monero network aims to add a new block onto the chain approximately every 120 seconds, which is equal to around 720 blocks per day. To achieve this rate a balance is required to prevent miners from solving blocks too quickly or too slowly. This balance is called the network difficulty. 
 
-The network difficulty is calculated by looking at the average block time from the last day, whilst excluding random outliers, mainly the very slow or very fast blocks the difficulty is adjusted depending on this. This difficulty value gives us insight into the average number of hashes required. From which we can also infer our luck.
+The network difficulty is calculated by looking at the average block time from the last day, whilst also excluding random outliers, mainly the very slow or very fast blocks. The difficulty is hence adjusted accordingly. This difficulty value gives us an insight into the average number of hashes required, from which we can also infer our luck.
 
 It's from this difficulty value that we can estimate the hashrate of the entire network. Taking the current network difficulty and then dividing it by the block target gives us this estimate. With a difficulty of 300G we can estimate the entire network hasrate to be around 2,5GH/s; 300GH ÷ 120s = 2,5GH/s.
 
