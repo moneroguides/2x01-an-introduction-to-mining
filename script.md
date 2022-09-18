@@ -177,13 +177,13 @@ Conversely, Intel CPUs typically have smaller L3 caches, meaning there isn't eno
 
 The hashrate displayed to the right of each processor is always the highest score from all the submissions. It's wrong to presume that just because you have this CPU or plan to buy it, that this is the hashrate you will achieve.
 
-These values displayed are a  result of numerous factors, the first of which will be the clock speed and power consumed by the chip. You may have some across the term [overclocking](https://en.wikipedia.org/wiki/Overclocking); these high scores are often achieved because the hardware has been pushed to the limits of stability. These scores are typically achieved using an enormous amount of power whilst generating just as much heat!
+These values displayed are a  result of numerous factors, the first of which will be the clock speed and power consumed by the chip. You may have already come across the term [overclocking](https://en.wikipedia.org/wiki/Overclocking); these high scores are often achieved because the hardware has been pushed to the limits of stability. 
 
-You will find that these scores are more about showing off, rather than something desirable in any normal mining machine.
+These scores are typically achieved using an enormous amount of power whilst generating just as much heat! You will find that these scores are more about showing off, rather than something desirable in any normal mining machine. Our experience shows that when using the more common Ryzen dektop processors, you know you are mining sensibly and effciently when your hasrate is around 80% of these top scores.
 
-If we click on the the name of the CPU we will be taken to a page which will show us details of more submitted benchmarks. You will find quite a lot of variance, further details of each result can be seen using the button provided.
+If we click on the the name of the CPU we will be taken to a page which will show us details of more submitted benchmarks. You will find quite a lot of variance here and further details of each result can be seen using the button provided.
 
-There are two other factors which greatly affect these scores. They are RAM latency and the number of memory channels available.
+Other that your choice of processor, there are two other factors which greatly affect these scores. They are RAM latency and the number of memory channels available.
 
 The faster your memory, the better it will perform when mining. Absolute latency is calculated as being equal to **(CAS latency×2000)÷Frequency**. An example follows; a memory module running @ 3200Mhz with a CAS Latency (CL) of 14 has a latency of 9.75 ms. Typically, B-die from Samsung performs best in this regard. That being said, one should always consider price relative to the performance increase.
 
