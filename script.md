@@ -1,4 +1,4 @@
-﻿# An Introduction to Mining
+# An Introduction to Mining
 
 <hr/>
 
@@ -75,7 +75,7 @@ This may sound scary at first, but owning more that 50% of the hash rate at the 
 
 For greater context; as of the 15^th of May 2022, the global hash rate of the Monero network is around 2,8 GH/s. One of the most powerful server grade CPUs currently available, retailing for around €6500 can achieve a hash rate of 100 kH/s. 
 
-Just to start, the attacker would need more than 28000 of these CPUs costing over €182m. This is obviously quite a simple and brutal estimation and it may be simpler to hijack an existing pools capabilites, however it illustrates the point well enough.
+Just to start, the attacker would need more than 28000 of these CPUs costing over €182m. This is obviously quite a simple and brutal estimation and it may be simpler to hijack an existing pools capabilities, however it illustrates the point well enough.
 
 Next we could consider the more realistic scenario, a group takes control.
 
@@ -150,7 +150,7 @@ If P2Pool's hashrate isn't high enough to find Monero blocks every 6 hours as a 
 
 [P2Pool.observer](https://p2pool.observer/) also has a form of calculator on their web page. You can use this calculator to estimate the time in which it will take you to find a share. It does this by dividing the current difficulty by your hashrate. Let's head back to the main page; you will see it labelled *Average Share Time Calculator*. After entering our machines hashrate and hitting the *calculate* button, we'll be given our estimate.
 
-You may have noticed when we visited [miningpoolstats.stream](https://miningpoolstats.stream/monero) that there were two entries for P2Pool. At the time of making this video there are two different P2Pools; the first and largest is the original the second, nicknamed 'mini' is a smaller and newer edition. Mini was established in order to reduce the intervals between shares found and further bolster the number of decentralised pools which support the network. In an ideal world, all the current pools would switch the the decentralised model, howver progress takes time.
+You may have noticed when we visited [miningpoolstats.stream](https://miningpoolstats.stream/monero) that there were two entries for P2Pool. At the time of making this video there are two different P2Pools; the first and largest is the original the second, nicknamed 'mini' is a smaller and newer edition. Mini was established in order to reduce the intervals between shares found and further bolster the number of decentralised pools which support the network. In an ideal world, all the current pools would switch the the decentralised model, however progress takes time.
 
 To get an idea of how much Monero you may mine per day you can do you own calculation. You need to first multiply the number of blocks produced each day by the amount of Monero supplied with each block. As the Monero network has entered its tail emission phase, each block is now worth 0,6 XMR and will continue like this indefinitely which will hold true, unless the code is changed. As discussed, we already know that around 720 blocks are produced each day. 
 
@@ -179,7 +179,7 @@ The hashrate displayed to the right of each processor is always the highest scor
 
 These values displayed are a  result of numerous factors, the first of which will be the clock speed and power consumed by the chip. You may have already come across the term [overclocking](https://en.wikipedia.org/wiki/Overclocking); these high scores are often achieved because the hardware has been pushed to the limits of stability. 
 
-These scores are typically achieved using an enormous amount of power whilst generating just as much heat! You will find that these scores are more about showing off, rather than something desirable in any normal mining machine. As a miner, it is in your economic interest to use as little electricity as possible! Our experience shows that common Ryzen dektop processors are utilised sensibly and effciently when hasrate is equal to around 80% of these top scores.
+These scores are typically achieved using a disproportionate amount of power whilst generating emence heat! You will find that these scores are more about showing off, rather than something desirable in any normal mining machine. As a miner, it is in your economic interest to use as little electricity as possible! Our experience shows that common Ryzen desktop processors are utilised sensibly and efficiently when hasrate is equal to around 80% of these top scores.
 
 If we click on the the name of the CPU we will be taken to a page which will show us details of more submitted benchmarks. You will find quite a lot of variance here and further details of each result can be seen using the button provided.
 
