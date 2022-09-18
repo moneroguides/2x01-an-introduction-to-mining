@@ -179,7 +179,7 @@ The hashrate displayed to the right of each processor is always the highest scor
 
 These values displayed are a  result of numerous factors, the first of which will be the clock speed and power consumed by the chip. You may have already come across the term [overclocking](https://en.wikipedia.org/wiki/Overclocking); these high scores are often achieved because the hardware has been pushed to the limits of stability. 
 
-These scores are typically achieved using an enormous amount of power whilst generating just as much heat! You will find that these scores are more about showing off, rather than something desirable in any normal mining machine. Our experience shows that when using the more common Ryzen dektop processors, you know you are mining sensibly and effciently when your hasrate is around 80% of these top scores.
+These scores are typically achieved using an enormous amount of power whilst generating just as much heat! You will find that these scores are more about showing off, rather than something desirable in any normal mining machine. As a miner, it is in your economic interest to use as little electricity as possible! Our experience shows that common Ryzen dektop processors are utilised sensibly and effciently when hasrate is equal to around 80% of these top scores.
 
 If we click on the the name of the CPU we will be taken to a page which will show us details of more submitted benchmarks. You will find quite a lot of variance here and further details of each result can be seen using the button provided.
 
@@ -204,15 +204,15 @@ In order to know how efficiently we are mining, we need to know how fast our mac
 
 Let's use the previous example where we have a machine hashing at 10 kH/s and them give it an arbitrary power value. In this calculation we are going to determine the number of hashes per [Joule](https://en.wikipedia.org/wiki/Joule).
 
--> 10000 H/s ÷ 114W ≈ 87.72 H/J
+-> 10000 H/s ÷ 96W ≈ 104 H/J
 
 To make this more relatable we can then convert this to hashes per [kilowatt-hour](https://en.wikipedia.org/wiki/Kilowatt-hour). The purpose of doing this is to make it more relatable to the way in which electricity is bought.
 
--> 87,72 H/J ÷ (1÷3600000)  ≈  316×10^6 H/kWh
+-> 104 H/J ÷ (1÷3600000)  ≈  374×10^6 H/kWh
 
-Knowing this we can take things even further! Now we can calculate the cost or profit we stand to make whilst mining Monero.
+Knowing this we can take things even further; now we can calculate the cost or profit we stand to make whilst mining Monero.
 
-Let's assume a domestic electricity cost of €0.19 per 1 kWh. We can hence say that for every €0.19 we spend of electricity, we buy 316×10^6 H/kWh.
+Let's assume a domestic electricity cost of €0.19 per 1 kWh. We can hence say that for every €0.19 we spend of electricity, we buy 374×10^6 H/kWh.
 
 Now you may be fortunate enough to be using wind or solar power and this calculation is not exactly required; you may even have free electricity! Regards of these facts it is still an interesting exercise and food for thought.
 
@@ -226,17 +226,17 @@ With a pool hashrate of 11x10^6 H/s the difficulty would hence be 110×10^6 H.
 
 We already know that €0,19 buys us 316×10^6 H/kWh. So we can then calculate the cost of each share using the following equation:
 
--> 316×10^6 H/kWh ÷ 110×10^6 H ≈ 2,87 
--> €0,19 ÷ 2,87 ≈ €0,066
+-> 374×10^6 H/kWh ÷ 110×10^6 H ≈ 3,4 
+-> €0,19 ÷ 3,4 ≈ €0,055
 
 The value of each of these shares is always changing and directly correlated to the price of Monero. Assuming one has a single share in the PPLNS window when a Monero block is found, a share is then worth 1/2160 of the block reward. Using €167 as the value of Monero, we can calculate the value of a single share:
 
--> 0,6/2160 ≈ 0,00027 XMR per share 
--> 0.00025×**€167** ≈ €0.042
+-> 0,6×(1/2160) ≈ 0,00027 XMR per share 
+-> 0,00027×**€167** ≈ €0.043
 
-We are mining at a considerable loss in this example. It costs €0,066 to mine €0,042 worth of XMR which equates to a whopping 37% loss!
+We are mining at a considerable loss in this example. It costs €0,055 to mine €0,042 worth of XMR which equates to a whopping 23% loss!
 
-In order to break even in this case, either Monero needs a value of €262 or 1 kWh of electricity must cost **€0,12**
+In order to break even in this case, either Monero needs a value of €203 or 1 kWh of electricity must cost **€0,14**
 
 Especially during [bear markets](https://en.wikipedia.org/wiki/Market_trend#Bear_market) you should count yourself rather lucky if mining Monero is still profitable.
 
