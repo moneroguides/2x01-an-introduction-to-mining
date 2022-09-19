@@ -23,15 +23,15 @@ Well, let's get into it.
 
 To achieve its distributed consensus, Monero relies on proof-of-work (PoW) mining.
 
-PoW is a form of cryptographic proof in which miners aim to prove to each other that they have achieved a certain amount of computational effort. This computational effort must satisfy conditions set by the networks current difficulty, the existing blockchain data and any new transnational data.
+PoW is a form of cryptographic proof in which miners aim to prove to each other that they have achieved a certain amount of computational effort. This computational effort must satisfy conditions set by the networks current difficulty, the existing blockchain data and any new transactional data.
 
 For a really good explanation of PoW and its practical use case, we suggest you take a look at the following video from [3Blue1Brown](https://yewtu.be/bBC-nXj3Ng4?t=669).
 
-Monero is different from other protocols in a few ways, one of which is the pursuit of egalitarian mining, which aims to give the common person the ability to successfully mine for themselves. Those who believe in Monero's approach more seriously prescribe to Satoshi's vision of [one-CPU-one-vote](https://www.bitcoin.com/satoshi-archive/whitepaper/#4-proof-of-work).
+Monero is different from other protocols in a few ways, one of which is the pursuit of egalitarian mining, which aims to give the common person the ability to successfully mine for themselves using commonly available hardware. Those who believe in Monero's approach more seriously prescribe to Satoshi's vision of [one-CPU-one-vote](https://www.bitcoin.com/satoshi-archive/whitepaper/#4-proof-of-work).
 
 To achieve this, Monero uses a hashing algorithm called [RandomX](https://www.getmonero.org/resources/moneropedia/randomx.html). This PoW algorithm is resistant to both GPUs and application-specific integrated circuits (ASICs), which means it's extremely impractical and expensive to build specialised hardware to mine Monero. 
 
-Miners must hence use consumer and server grade hardware which allows users to compete much more fairly!
+Miners must therefore use consumer and server grade CPUs, which allows users to compete much more fairly!
 
 So what exactly are miners competing for?
 
@@ -40,25 +40,27 @@ Well, that would be the precious block reward.
 
 ### The Block Reward and Network Difficulty
 
-Miners, which consist of both hardware and software, are constantly trying to calculate and prove that the hashes they have derived both represent the most work done and all the most recent valid transactions. 
+Miners, which are a combination of both hardware and software, are constantly are constantly working to add new transactions to the blockchain; they do so by trying to calculate and prove that the hashes they have derived both represent the most work done and all the most recent valid transactions. Which in turn, gives them the right to add their block to the chain and have it accepted by the rest of the network.
 
-Together, this information forms the next block in the block chain.
+Their constant work keeps the system running - without miners, the blockchain would be stuck and no transactions could be validated!
+
+To incentivise miners to keep working, every time they find a valid block solution they are given a reward.
 
 Block rewards are the new coins issued by the network for each successfully solved block. These coins, plus the transaction fees generated from spent outputs are awarded to the miner who mints that block!
 
 The likelihood that any one miner is able to calculate the required hashes and hence solve the next block, is directly correlated to the number of hashes they can calculate per second (H/s). This is also known as the miners hashrate.
 
-That being said, it may not necessarily be the miner with the largest hashrate who mints the next block. This is in part due to the complexity of the task at hand. There is in fact an element of luck in this process, as each and every hash has an equal and valid chance of satisfying the next block in the chain.
+That being said, it may not necessarily be the miner with the largest hashrate who mints the next block. This is in part due to the complexity of the task at hand. There is in fact an element of luck in this process, as each and every hash has an equal and valid chance of satisfying the next block in the chain. In other words there's an element of luck involved!
 
 The Monero network aims to add a new block onto the chain approximately every 120 seconds, which is equal to around 720 blocks per day. To achieve this rate a balance is required to prevent miners from solving blocks too quickly or too slowly. This balance is called the network difficulty. 
 
-The network difficulty is calculated by looking at the average block time from the last day, whilst also excluding random outliers, mainly the very slow or very fast blocks. The difficulty is hence adjusted accordingly. This difficulty value gives us an insight into the average number of hashes required, from which we can also infer our luck.
+The network difficulty is calculated by looking at the average block time from the last day, whilst also excluding random outliers, mainly the very slow or very fast blocks. The difficulty is hence adjusted accordingly. The mining process is random, but statistically predictable; this difficulty value represents the average number of hashes required to mint the next block.
 
 It's from this difficulty value that we can estimate the hashrate of the entire network. Taking the current network difficulty and then dividing it by the block target gives us this estimate. With a difficulty of 300G we can estimate the entire network hasrate to be around 2,5GH/s; 300GH ÷ 120s = 2,5GH/s.
 
-The existence of the block reward incentives competition between miners and hence drives up the total hash rate of the network. That is typically until the cost of adding more hashing power is higher than the reward of obtaining that proportion of mined blocks. We emphasise 'typically', as die hard Monero fans will even mine at a loss during those bear market scenarios.
+The existence of the block reward incentives competition between miners and hence drives up the total hashrate of the network. That is typically true until the cost of adding more hashing power is higher than the reward of obtaining that proportion of mined blocks. We emphasise 'typically', as die hard Monero fans will even mine at a loss during those bear market scenarios.
 
-Likewise as Monero becomes more valuable, the total hash rate of the network should theoretically increase proportionately and hence become progressively more difficult and expensive.
+Think of mining rewards as a pie. When new miners join, everyone gets a smaller slice of the pie; when they leave, those left get a larger slice. Similarly, as Monero becomes more valuable, the size of the pie increases as does the mining network, until a new balance is reached and everyone is full.
 
 
 ### Network Security
