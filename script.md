@@ -67,27 +67,23 @@ Think of mining rewards as a pie. When new miners join, everyone gets a smaller 
 
 Consensus, is the method by which judgement is cast and the state of the block chain is determined. For consensus to be reached, more than 50% of the network participants must agree on the state of the block chain.
 
-Strictly speaking; miners are not only competing for the block reward and fees, but the right to mint the next block in the chain and to propagate their version of the block chain history.
+Strictly speaking, miners are not only competing for the block reward and fees, but the right to mint the next block in the chain and to propagate their version of the block chain history.
 
-Given that consensus is required by the Monero protocol, users are forced to consider the following; In the event that rule breaking and dishonest miners out number the rule abiding and honest ones, the legitimate block chain history will be broken.
-
-In other words, the legitimate history can be broken by an individual or group of miners who control more than 50% of the hashing power of the network.
+Given that consensus is required by the Monero protocol, users are forced to consider the following; in the event that rule breaking and dishonest miners out number the rule abiding and honest ones, the legitimate block chain history will be broken. In other words, the legitimate history can be broken by an individual or group of miners who control more than 50% of the hashing power of the network.
 
 This may sound scary at first, but owning more that 50% of the hash rate at the time of making this video, is extremely expensive. 
 
-For greater context; as of the 15^th of May 2022, the global hash rate of the Monero network is around 2,8 GH/s. One of the most powerful server grade CPUs currently available, retailing for around €6500 can achieve a hash rate of 100 kH/s. 
+For greater context, on the 15^th of May 2022, the global hash rate of the Monero network was around 2,8 GH/s. One of the most powerful server grade CPUs currently available, whos retail price is around €6500 can achieve a hash rate of 100 kH/s. 
 
-Just to start, the attacker would need more than 28000 of these CPUs costing over €182m. This is obviously quite a simple and brutal estimation and it may be simpler to hijack an existing pools capabilities, however it illustrates the point well enough.
+If working alone, the attacker would need more than 28000 of these CPUs costing over €182m. This is obviously quite a simple and brutal estimation and likely simpler to hijack an existing pools capabilities, however it illustrates the point well enough for now. A more realistic scenario; a group takes control.
 
-Next we could consider the more realistic scenario, a group takes control.
-
-To introduce the next topic we should make solving the next block analogous with winning the lottery. Although it's not entirely correct, for those taking part with a comparatively low hash rate the ability to solve a block tends to it.
+To introduce the next topic we should make solving the next block analogous with winning the lottery. Although it's not entirely correct, for those taking part with a comparatively low hash rate the ability to solve a block tends towards it.
 
 A rough calculation for the time an individual needs to solved a block follows; network hashrate ÷ personal hasraterate × block time = time to find a block.
 
 Using the same CPU we mentioned previously, it would take; ((2,5×10^9)÷(100×10^3))×(120)=3000000 s or 35 days to solve a block. This assumes that you are not 'unlucky' and do indeed solve one during this time. Luck in this case is often calculated as a percentage of this value.
 
-When trying to win the lottery one can compete on their own or alongside others in the form of a syndicate. Syndicates in this case are called pools and are a common way for miners to ensure that they receive a steady income for the work the produce.
+When trying to win the lottery one can compete on their own or alongside others in the form of a syndicate. Syndicates in this case are called pools and are a common way for miners to ensure that they receive a steady income for the work they produce.
 
 For both a mining calculator and a list of the current publicly available pools please take a look at [miningpoolstats.stream](https://miningpoolstats.stream/monero). Here we can find links to the pools, view how the hashrate and blocks are distributed across them and use the calculator.
 
